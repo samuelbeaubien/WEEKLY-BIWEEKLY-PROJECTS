@@ -1,0 +1,45 @@
+body{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+#title{
+  padding: 20px;
+}
+#gameboard{
+  display: table-cell;
+  width: 1000px;
+  height: 600px;
+}
+#gameboardCanvas{
+  background-color: beige;
+  border-radius: 2px;
+  border-color: black;
+  border: solid;
+}
+#contents{
+  display: table;
+}
+#instructions{
+  display: table-cell;
+  margin: auto;
+  vertical-align: top;
+  padding: 20px;
+}
+#player1{
+  background-color: blue;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  left: 10px;
+
+}
+#player2{
+  background-color: red;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: 600px;
+  left: 940px;
+}
